@@ -100,28 +100,3 @@ const handleSubmit = () => {
       })
    })
 }
-
-const str = '<h1>Hello, world!</h1>'
-const regexp = /<(.*?)>/g
-let matchAll = str.matchAll(regexp)
-console.log(matchAll)
-matchAll = Array.from(matchAll)
-console.log(matchAll)
-const firstMatch = matchAll[0]
-const secondMath = matchAll[1]
-console.log(firstMatch[0])
-console.log(firstMatch[1])
-console.log(secondMath[0])
-console.log(secondMath[1])
-
-// let str = '<h1>Hello, world!</h1>';
-// let regexp = /<(.*?)>/g;
-
-// let matchAll = str.matchAll(regexp);
-
-// console.log(matchAll); // [object RegExp String Iterator], не массив, а перебираемый объект
-
-// matchAll = Array.from(matchAll); // теперь массив
-
-// let firstMatch = matchAll[0];
-// console.log(firstMatch[0]);  // <h1>
